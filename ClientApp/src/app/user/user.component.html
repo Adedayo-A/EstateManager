@@ -1,0 +1,32 @@
+<div class="form__page">
+    <div class="form__page-header">
+        <div (click)="login()" class="form__page-header-login" [ngClass]="{'border-bottom-indicator': loginForm}"> Login </div>
+        <div (click)="reg()" class="form__page-header-register" [ngClass]="{'border-bottom-indicator': registrationForm}"> Register </div>
+    </div>
+    <div class="form__section" [ngClass]="{'form__section-login': loginForm,'form__section-register': registrationForm}">
+        <div *ngIf = "loginForm" >
+            <form class="form__section-login-form">
+                <label class="label__inputbtn"> Name:</label>
+                <input type="text" placeholder="Enter User Login" class="form__inputbtn"/>
+                <label class="label__inputbtn"> Password: </label>
+                <input type="password" placeholder="Enter Password" class="form__inputbtn" />
+                <input type="submit" value="Submit" class="submit__button" />
+            </form>
+        </div>
+        <div *ngIf = "registrationForm" >
+            <form class="form__section-register-form">
+                <input type="text" placeholder="Enter First Name" class="form__inputbtn"/>
+                <input type="password" placeholder="Enter Last Name" class="form__inputbtn" />
+                <input type="password" placeholder="Enter Date Of Birth" class="form__inputbtn" />
+                <input type="password" placeholder="Enter Occupation" class="form__inputbtn" />
+                <select id="role" class="form__inputbtn">
+                    <option value="owner">Home Owner</option>
+                    <option value="tenant"> Tenant</option>
+                    <option value="security">Security</option>
+                    <option value="staff">Home Staffs</option>
+                </select>
+                <input type="submit" value="Submit" class="submit__button" />
+            </form>
+        </div>
+    </div>
+</div>

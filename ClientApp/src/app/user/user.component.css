@@ -1,0 +1,88 @@
+.form__page {
+    max-width: 1440px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    /* background-color: darkmagenta; */
+}
+
+.form__page-header {
+    display: flex;
+    margin: auto;
+    width: 20%;
+    justify-content: space-around;
+}
+
+.form__page-header-login, .form__page-header-register {
+    border: 1px solid;
+    /* border-radius: 5px; */
+    border-color: transparent;
+    border-width: 5px;
+    padding: 0 5%;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.border-bottom-indicator {
+    border-bottom-color: #A400B4;
+}
+
+.form__section {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: darkslateblue;
+}
+
+.form__section-login {
+    width: 50%;
+    padding: 7%;
+}
+
+.form__section-register {
+    width: 55%;
+    padding: 7%;
+    padding-bottom: 5%;
+}
+
+.form__section-login-form, .form__section-register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form__inputbtn {
+    width: 350px;
+    padding: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.9px solid rgba(0,0, 0, 0.3);
+    box-shadow: none;
+    outline: none;
+    margin-bottom: 12px;
+}
+
+.label__inputbtn {
+    width: 350px;
+    /* padding: 20px; */
+    color: white;
+    text-align: left;
+}
+
+.submit__button {
+    display: block;
+    margin-top: 1rem;
+    width: 350px;
+    height: 50px;
+    background-color: #A400B4;
+    color: rgba(255,255,255);
+    outline: none;
+    box-shadow: none;
+    border-style: solid;
+    border-width: 0.9px;
+    border-radius: 0.3rem;
+}

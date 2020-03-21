@@ -1,0 +1,77 @@
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.letters span:nth-child(1) {
+  color: #50BAFE;
+}
+
+.letters span:nth-child(2) {
+  color: #FF2100;
+}
+
+.letters span:nth-child(4) {
+  color: #E7F1FE;
+}
+
+.letters span:nth-child(5) {
+  color: #8300fd;
+  color: #90539A;
+}
+
+.letters span:nth-child(6) {
+  color: #FF5D00;
+  color: black;
+}
+
+.letters span:nth-child(7) {
+  color: #F53A74;
+}
+
+.letters span:nth-child(8) {
+  color: #CBE7A7;
+}
+
+.letters span:nth-child(11) {
+  color: #E70000;
+}
+
+.letters span:nth-child(13) {
+  color: #3E819E;
+  color: #2FA430;
+  color: #E4E4E4;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-sign-in {
+  border: 2px solid;
+  border-color: #B500B1;
+  border-radius: 5px;
+  filter: contrast(30%);
+  padding: 7px;
+}
+
+nav {
+  margin-left: -150px !important;
+}
+.nav-link:hover {
+  color: white !important;
+}
+.nav-sign-in:hover {
+  background-color: #B500B1;
+}
